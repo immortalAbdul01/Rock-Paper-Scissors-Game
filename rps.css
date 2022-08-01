@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: url('bg.jpg') no-repeat center fixed;
+   background-size: cover;
+}
+h1{
+    color:blue;
+    padding: 0px;
+    /* margin-top: 45px; */
+    text-align: center;
+   background-color: plum;
+   font-family: 'Mochiy Pop One', sans-serif;
+   font-size: 30px;
+}
+.btn{
+    /* border: 5px solid black; */
+    width: 70%;
+    height: 120px;
+    text-align: center  ;
+    margin: auto;
+    margin-left: 200px;
+}
+.btn button{
+    cursor: pointer;
+    margin-top: 44px;
+    width: 45px;
+    height: 45px;
+    padding: 25px;
+    background-color: yellow;
+    border-radius: 88px;
+    /* margin: auto; */
+
+}
+.btn img{
+    cursor: pointer;
+    margin-top: 44px;
+    width: 45px;
+    height: 45px;
+    /* padding: 25px; */
+    background-color: yellow;
+    border-radius: 88px;
+    /* margin: auto; */
+    
+}
+#rock:hover{
+    width: 55px;
+    height: 55px;
+
+    background-color: greenyellow;
+    
+}
+#paper:hover{
+    width: 55px;
+    height: 55px;
+
+    background-color: greenyellow;
+    
+}
+#sissor:hover{
+    width: 55px;
+    height: 55px;
+
+    background-color: greenyellow;
+    
+}
+.match{
+    display: flex;
+    /* border: 3px solid black; */
+    
+    text-align: center;
+}
+.match img{
+    border-radius: 177px;
+    width: 250px;
+    height: 250px;
+    margin: 153px;
+    margin-top: 3px;
+    margin: auto;
+    
+}
+.match h3{
+    color: red;
+    font-size: 55px;
+    margin-top: 66px;
+}
+#para{
+    font-family: 'Mochiy Pop One', sans-serif;
+
+    margin: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    background:plum;
+}
+.score{
+    margin-top: 13px;
+    margin-left: 350px;
+     /* text-align: center; */
+    display: flex;
+}
+#yos{
+    font-family: 'Mochiy Pop One', sans-serif;
+ color: green;
+width: 200px;
+margin: auto;
+
+border-radius: 90px;
+padding: 5px;
+
+}
+#cos{
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 5px;
+    border-radius: 90px;
+    color: red;
+    width: 200px;
+    /* background-color: orange(221, 61, 61); */
+    
+}
+h2{
+    color: yellow;
+    padding-top: 5px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+}
